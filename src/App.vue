@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>nimble turkiye - kata's</h1>
+    <h1 style="color:#59428c">nimble turkiye - kata's</h1>
     <img src="./assets/logo.jpg" class="logocuk">
     <div class="input">
       <input v-model="search" placeholder="filter">
@@ -151,7 +151,7 @@ export default {
 body,
 .input,
 input {
-  background: white;
+  background: #d7d7d7;
 }
 
 body,
@@ -163,6 +163,7 @@ body {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
+  background-color: #d7d7d7;
 }
 
 .logocuk {
@@ -184,7 +185,7 @@ body {
 
 
 a {
-  color: hsl(0, 70%, 40%);
+  color: #59428c;
 }
 
 #app {
@@ -204,7 +205,7 @@ h1 {
 .input,
 input,
 .kyu {
-  border: 1px solid hsl(0, 70%, 40%);
+  border: 1px solid #59428c;
   border-radius: 2px;
 }
 
@@ -252,7 +253,7 @@ input {
 }
 
 .selected {
-  background: hsl(0, 70%, 40%);
+  background: #59428c;
   color: white;
 }
 
@@ -264,7 +265,7 @@ input {
 }
 
 .kata:not(:last-child) {
-  border-bottom: 2px solid hsl(0, 70%, 40%);
+  border-bottom: 2px solid #59428c;
 }
 
 .kata h3 {
